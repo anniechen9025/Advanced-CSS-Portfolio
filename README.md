@@ -10,7 +10,7 @@ By learning the concept of the HTML and CSS with different syntax and structures
 
 Screenshot
 
-![Screenshot of HW website](/assets/image/website.png)
+![Screenshot of HW website](/Assets/image/website.png)
 
 #### Code style
 
@@ -24,5 +24,5 @@ I make my own website and layout by using HTML and CSS. Because of my complicate
 
 ### Link
 
-Click here: [ASSMT#1 LINK](https://anniechen9025.github.io/HW-01/) 
+Click here: [ASSMT#2 LINK](https://anniechen9025.github.io/HW-01/) 
 
