@@ -1,0 +1,457 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+}
+
+/* Header section*/
+.header {
+    padding: 20px;
+    background-color: #cca79f;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 2.5rem;
+    margin-left: 100px;
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-right: 100px;
+    font-size: 1.7rem;
+}
+
+
+/* Main section CSS*/
+body{
+    background-color: #ECE8E5;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Article 1*/
+article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Introduction Section*/
+.introduction h2{
+    color: #7b5a51;
+    font-size: 2rem;
+    margin-left: 5%;
+    width: 100%;
+}
+
+.introduction, .resume-introduction{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin-left: 5%;
+    margin-right: 0%;
+}
+
+.education h2{
+    color: #7b5a51;
+    font-size: 2rem;
+    margin-left: 0%;
+}
+
+.jouan-img{
+    width: 40%;
+    height: 70%;
+    margin-left: 5%;
+    border-radius: 10%;
+}
+
+.jouan-p{
+    width: 40%;
+    margin: 0%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    line-height: 2;
+    font-size: 1.5rem;
+    color: #866147;
+    white-space: pre-wrap;
+    tab-size: 4;
+    overflow: auto;
+}
+
+.education{
+    width: 30%;
+}
+
+.jouan-li{
+    line-height: 2;
+    font-size: 1.5rem;
+    color: #866147;
+    white-space: pre-wrap;
+    tab-size: 4;
+    overflow: auto;
+}
+
+
+/* Resume HTML*/
+#Resume{
+    color: #7b5a51;
+}
+
+.resume-education{
+    width: 35%;
+}
+
+.resume-education h2{
+    color: #7b5a51;
+}
+
+.resume-education ul,ol{
+    list-style-type: none;
+    line-height: 2;
+    font-size: 1.5rem;
+    color: #866147;
+}
+
+#language-list{
+    font-size: 1.3rem;
+    margin-right: 11vw;
+}
+
+/* Article-Applications */
+.applications{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 5%;
+}
+
+#Work{
+    height: 10%;
+    width: 100%;
+    margin-bottom: 0%;
+    margin-left: 5%;
+    font-size: 2.5rem;
+    color: #7b5a51;
+}
+
+/* Image section */
+.ap-1,.ap-2,.ap-3,.ap-4{
+    width: 30%;
+    height: 40%;
+    margin: 10%;
+    margin-top: 0%;
+    margin-bottom: 1%;
+    -webkit-filter: brightness(100%);
+}
+
+.placeholder{
+    border: 5px solid #d9b8a5;
+    border-radius: 10%;
+    width: 100%;
+    height: 90%;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    background-color: #d9b8a5;
+    font-size: 1.4rem;
+    margin-top: 0%;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 10%;
+}
+
+/* Footer section CSS*/
+h3{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #b57261;
+}
+
+h4{
+    color: #7b5a51;
+    font-size: 2rem;
+    margin-bottom: 0%;
+    margin-left: 25%;
+}
+
+.bar-line nav{
+    background-color: #cca79f;
+    height: 7%;
+}
+
+.bar-line nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 0%;
+}
+
+.bar-line nav ul li {
+    display: inline-block;
+    font-size: 1.7rem;
+    margin-top: 1%;
+    margin-right: 5%;
+}
+
+/* animation Section*/
+a {
+    text-decoration: none;
+    color: #7b5a51;
+}
+
+a:hover{
+    font-size: 2.2rem;
+    color: #313d4b;
+}
+
+a:visited{
+    text-decoration: underline;
+}
+
+.ap-1:hover, .ap-2:hover, .ap-3:hover, .ap-4:hover{
+    margin: 1%;
+    height: 48%;
+    width: 40%;
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+/* Media Queries*/
+@media only screen and (max-width: 768px){
+    .header{
+        height: 400px;
+    }
+
+    #main-title{
+        margin: 3vw;
+        margin-bottom: 0vw;
+    }
+
+    .header nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+
+    .header nav ul li{
+        margin: 10px;
+    }
+
+    .introduction{
+        width: 95%;
+    }
+
+    .jouan-img{
+        width: 50%;
+        height: 45%;
+    }
+
+    .jouan-p{
+        width: 100%;
+        padding-top: 2vh;
+    }
+
+    .introduction h2{
+        margin-left: 6vw;
+    }
+
+    .education h2{
+        margin-left: 5vw;
+    }
+
+    .jouan-li{
+        margin-left: 5vw;
+    }
+
+    .education{
+        width: 95%;
+    }
+
+    .ap-1, .ap-2, .ap-3, .ap-4 {
+        width: 80%;
+        height: 20%;
+    }
+
+    .applications{
+        height: 2600px;
+    }
+
+    #Work{
+        height: 6vh;
+    }
+
+    .resume-introduction{
+        width: 80%;
+    }
+
+    .resume-education{
+        margin-left: 25vw;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 992px){
+
+    .header{
+        height: 400px;
+    }
+
+    #main-title{
+        margin: 3vw;
+        margin-bottom: 0vw;
+    }
+
+    .header nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 0px;
+    }
+
+    .header nav{
+        margin-right: 0px;
+    }
+
+    .header nav ul li {
+        margin-right: 20px;
+    }
+
+    .introduction{
+        width: 95%;
+    }
+
+    .introduction h2{
+        margin-left: 6vw;
+    }
+
+    .jouan-img{
+        width: 50%;
+        height: 45%;
+    }
+
+    .jouan-p{
+        width: 100%;
+        padding-top: 2vh;
+    }
+
+    .education{
+        width: 95%;
+        margin-left: 9vw;
+    }
+
+    .ap-1, .ap-2, .ap-3, .ap-4 {
+        width: 80%;
+        height: 20%;
+    }
+
+    .applications{
+        height: 2600px;
+    }
+
+    #Work{
+        height: 3vh;
+    }
+
+    #resume-header{
+        height: 350px;
+    }
+
+    .resume-introduction{
+        width: 80%;
+    }
+
+    .resume-education{
+        margin-left: 25vw;
+    }
+
+}
+
+@media all and (min-width: 992px) and (max-width:1028px){
+
+    .header{
+        height: 350px;
+    }
+
+    #main-title{
+        margin: 3vw;
+        margin-bottom: 0vw;
+    }
+
+    .header nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 0px;
+    }
+
+    .header nav{
+        margin-right: 0px;
+    }
+
+    .header nav ul li {
+        margin-right: 20px;
+    }
+
+    .introduction{
+        width: 95%;
+    }
+
+    .introduction h2 {
+        margin-left: 2vw;
+    }
+
+    .jouan-img {
+        height: 60%;
+        margin-left: 0%;
+    }
+
+    .jouan-p{
+        width: 44%;
+        margin-left: 3%;
+        padding-top: 0%;
+    }
+
+    .education{
+        width: 95%;
+        margin-left: 9vw;
+    }
+
+    .ap-1, .ap-2, .ap-3, .ap-4 {
+        width: 80%;
+        height: 20%;
+    }
+
+    .applications{
+        height: 2600px;
+    }
+
+    #Work{
+        height: 3vh;
+    }
+
+}
