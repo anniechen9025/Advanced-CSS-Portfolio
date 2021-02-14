@@ -24,5 +24,5 @@ I make my own website and layout by using HTML and CSS. Because of my complicate
 
 ### Link
 
-Click here: [ASSMT#2 LINK](https://anniechen9025.github.io/HW-01/) 
+Click here: [ASSMT#2 LINK](https://anniechen9025.github.io/HW02/) 
 
